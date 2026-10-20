@@ -1,15 +1,20 @@
-
+# ==============================
 # Environment variables and secrets
+# ==============================
 .env
 .env.*
 !.env.example
 
+# ==============================
 # Python virtual environments
+# ==============================
 .venv/
 venv/
 env/
 
+# ==============================
 # Python cache and compiled files
+# ==============================
 __pycache__/
 *.py[cod]
 *$py.class
@@ -17,40 +22,59 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 
+# ==============================
 # Frontend dependencies
+# ==============================
 node_modules/
 
+# ==============================
 # Build output
+# ==============================
 dist/
 build/
 
+# ==============================
 # Local databases and database files
+# ==============================
 *.db
 *.sqlite
 *.sqlite3
 *.dump
 
+# ==============================
 # Logs
+# ==============================
 *.log
 logs/
 
+# ==============================
 # Operating system files
+# ==============================
 .DS_Store
 Thumbs.db
 
+# ==============================
 # IDE and editor settings
+# ==============================
 .vscode/
 .idea/
 
+# ==============================
 # Test and coverage output
+# ==============================
 .coverage
 htmlcov/
 
+# ==============================
 # Local AI models and generated data
-models/
-data/
-uploads/
+# ==============================
+/models/
+/backend/models/
+/data/
+/uploads/
 
+# ==============================
 # Temporary files
+# ==============================
 *.tmp
 *.bak
