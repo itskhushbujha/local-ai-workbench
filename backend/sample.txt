@@ -1,0 +1,14 @@
+Project Name: Local AI Intelligence Workbench
+
+Purpose:
+This project is a local AI assistant that answers questions about uploaded documents.
+
+Technology Stack:
+- FastAPI provides the backend API.
+- PostgreSQL stores application data.
+- pgvector supports semantic search over document embeddings.
+- Ollama runs the language model locally.
+- The nomic-embed-text model generates document embeddings.
+
+Privacy:
+Documents and AI inference are processed locally on the developer's machine.
